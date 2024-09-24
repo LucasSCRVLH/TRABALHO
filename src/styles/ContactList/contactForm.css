@@ -10,7 +10,7 @@
   justify-content: space-between;
   width: 75%;
   padding: 20px;
-  border-radius: 20px; /* Ajuste para uma borda menos arredondada */
+  border-radius: 20px; 
   background-color: rgb(52, 52, 52);
   border: 1px solid rgb(148, 148, 148);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -19,25 +19,24 @@
 
 .ContactForm form input {
   padding: 15px;
-  border-radius: 20px; /* Ajuste para uma borda menos arredondada */
+  border-radius: 20px; 
   height: 40px;
-  width: 100%; /* Ajuste para 100% para ocupar todo o espaço disponível */
-  margin: 8px 0; /* Espaçamento vertical */
+  width: 100%; 
+  margin: 8px 0; 
   background-color: rgb(43, 43, 43);
   border: 1px solid rgb(148, 148, 148);
-  color: white; /* Para melhor legibilidade */
+  color: white; 
 }
 
 .ContactForm button {
-  padding: 10px 20px; /* Aumentar a área clicável */
-  border-radius: 20px; /* Ajuste para uma borda menos arredondada */
+  padding: 10px 20px; 
+  border-radius: 20px; 
   background-color: rgb(43, 43, 43);
   border: 1px solid rgb(255, 255, 255);
-  color: white; /* Cor do texto */
+  color: white; 
   transition: 0.3s ease-in-out;
   cursor: pointer;
-  font-weight: bold; /* Para destacar o texto */
-}
+  font-weight: bold; 
 
 .ContactForm button:hover {
   background-color: white;
@@ -46,7 +45,7 @@
 
 .ContactForm legend {
   margin-bottom: 20px;
-  font-size: 24px; /* Aumentar o tamanho da fonte */
+  font-size: 24px; 
   color: white;
-  text-align: center; /* Centralizar o texto */
+  text-align: center; 
 }
