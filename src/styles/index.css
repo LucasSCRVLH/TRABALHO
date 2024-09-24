@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import './ContactList/contactList.css';
+
+@import './ContactList/contactListHeader.css';
+
+@import './ContactList/contactForm.css';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+:root {
+  background-color: #1c1c1c;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  background-color: black;
+  width: 100%;
+  height: 1200px;
+}
+aside {
+  scrollbar-width: none;
+}

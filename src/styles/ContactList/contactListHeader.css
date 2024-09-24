@@ -1,0 +1,43 @@
+.ContactListHeader {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 30px;
+  }
+  
+  .ContactListHeader form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ContactListHeader input {
+    padding: 15px;
+    border-radius: 40px;
+    height: 50px;
+    width: 80%;
+    margin: 8px;
+    background-color: rgb(43, 43, 43);
+    border: 0.1px solid rgb(148, 148, 148);
+  }
+  
+  .ContactListHeader button {
+    background-color: rgb(43, 43, 43);
+    color: rgb(148, 148, 148);
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 40px;
+    width: 20%;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-image: url('../../imgs/search.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+  
+  .ContactListHeader button:hover {
+    background-color: white;
+    color: rgb(43, 43, 43);
+  }
